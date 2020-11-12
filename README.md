@@ -1,10 +1,16 @@
-#### 文章首发：
-> 公众号:知秋小梦
-#### 文章同步:
+### 文章首发：
+> 公众号:知秋小一
+### 文章同步:
 > 知乎，csdb，简书
+
+<br>
 
 **如果你觉得我写的不错的话，欢迎star**<br>
 **也可以关注公众号，获取更详细爬虫教程（手把手教你！）**
+
+<br>
+
+![文章首发：公众号『知秋小一』](https://raw.githubusercontent.com/double-point/GraphBed/master/machine_learning/HMM/qrcode_for_gh_8ed0220ce0fe_258.jpg)
 
 <br><br>
 ### Python爬虫项目
@@ -23,4 +29,8 @@
 ### 数据分析项目
 #### 1. 豆瓣电影TOP250数据分析
 ##### 项目详细讲解 [分析实战-你知道豆瓣电影是怎么评分的吗？](https://mp.weixin.qq.com/s?__biz=MzI5MjYwNTU5NQ==&mid=2247483937&idx=1&sn=ca96636651581d4abe86276fa4285adc&chksm=ec7f99d5db0810c30693522defbd7245947eae07a96f436eb0d0385e950683f4878febd9e9cd&token=1487868079&lang=zh_CN#rd)
+<br>
+
+#### 2. 疫情拐点，你真的来了吗？
+##### 项目详细讲解 [疫情拐点，你真的来了吗？](https://mp.weixin.qq.com/s?__biz=MzI5MjYwNTU5NQ==&mid=2247484183&idx=1&sn=06451da9c1c026198bc41051f5b76fc7&chksm=ec7f98e3db0811f53abadba53a9a26ac6d693311f1220276cf42259c27400140e7f3e480e34c&token=1872890796&lang=zh_CN#rd)
 <br>
