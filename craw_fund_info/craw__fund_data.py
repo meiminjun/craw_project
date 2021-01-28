@@ -248,8 +248,6 @@ if __name__ == '__main__':
     df_rank_data = get_rank_data(url, page_index, max_page, fund_type)
     # 得到Top的基金权重
     max_rank = 300 if int(len(df_rank_data)/100) > 3 else 100
-    # df_rank_data.to_csv(r'file/data_fund_rank_' + fund_type + '.csv', encoding='gbk', index=False)
-    # df_rank_data = pd.read_csv('file/data_fund_rank_' + fund_type + '.csv', encoding='gbk')
     # 获取基金详细信息和持仓情况
     df_rank_detail_data, df_position_data = get_position_data(df_rank_data, max_rank)
     # 合并收益数据和详情数据
