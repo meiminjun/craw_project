@@ -2,7 +2,7 @@
 # FileName: craw_project
 # Author:   wzg
 # email:    1010490079@qq.com
-# Date:     2019/12/6 15:50
+# Date:     2021/1/27 15:50
 # Description: 爬取天天基金网收益的Top基金
 import json
 import random
