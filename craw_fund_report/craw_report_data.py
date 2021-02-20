@@ -18,6 +18,8 @@ from selenium import webdriver
 import random
 import time
 
+from selenium.webdriver.chrome.options import Options
+
 warnings.filterwarnings('ignore')
 
 # 显示所有列
@@ -33,11 +35,12 @@ def init_selenium():
     """
     executable_path = "D:\software\install\chromedriver_win32\chromedriver.exe"
     # 设置不弹窗显示
-    # chrome_options = Options()
-    # chrome_options.add_argument('--headless')
-    # chrome_options.add_argument('--disable-gpu')
-    # browser = webdriver.Chrome(chrome_options=chrome_options, executable_path=executable_path)
-    browser = webdriver.Chrome(executable_path=executable_path)
+    chrome_options = Options()
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--disable-gpu')
+    browser = webdriver.Chrome(chrome_options=chrome_options, executable_path=executable_path)
+    # 设置弹窗显示
+    # browser = webdriver.Chrome(executable_path=executable_path)
 
     return browser
 
@@ -138,7 +141,7 @@ def download_file(title, link, dirpath):
 
 if __name__ == '__main__':
     # 构造每个基金季度报告的 url
-    code = '005968'
+    code = '008284'
     url = 'http://fundf10.eastmoney.com/jjgg_{0}_3.html'.format(code)
     save_path_dir = os.path.join('download_file', code)
 
